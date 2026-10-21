@@ -1,0 +1,6 @@
+{
+  "name": "Cyber League",
+  "description": "An elite competitive cybersecurity esports platform and gamified training arena featuring tactical quizzes, boss incursion simulations, division progression, and global rankings.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

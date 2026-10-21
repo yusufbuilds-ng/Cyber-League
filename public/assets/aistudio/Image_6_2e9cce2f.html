@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_dashboard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@500;600&amp;family=Space+Grotesk:wght@600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "on-error": "#690005", "tertiary-fixed-dim": "#00daf3", "on-secondary-fixed": "#2c0051", "on-secondary-container": "#d6a9ff", "surface-tint": "#adc6ff", "outline-variant": "#424754", "on-primary-fixed": "#001a42", "surface-dim": "#0c1322", "secondary": "#ddb7ff", "surface-container": "#191f2f", "on-primary": "#002e6a", "background": "#0c1322", "secondary-fixed": "#f0dbff", "on-secondary": "#490080", "surface-container-high": "#232a3a", "primary": "#adc6ff", "surface-variant": "#2e3545", "surface-container-low": "#141b2b", "on-tertiary-fixed-variant": "#004f58", "primary-fixed": "#d8e2ff", "error": "#ffb4ab", "on-secondary-fixed-variant": "#6900b3", "tertiary-container": "#009fb2", "inverse-on-surface": "#293040", "inverse-surface": "#dce2f7", "on-primary-fixed-variant": "#004395", "on-surface-variant": "#c2c6d6", "secondary-container": "#6f00be", "tertiary": "#00daf3", "error-container": "#93000a", "surface-bright": "#323949", "surface-container-highest": "#2e3545", "tertiary-fixed": "#9cf0ff", "surface": "#0c1322", "secondary-fixed-dim": "#ddb7ff", "on-surface": "#dce2f7", "outline": "#8c909f", "on-tertiary": "#00363d", "on-tertiary-fixed": "#001f24", "surface-container-lowest": "#070e1d", "inverse-primary": "#005ac2", "on-tertiary-container": "#002f35", "primary-container": "#4d8eff", "on-error-container": "#ffdad6", "on-background": "#dce2f7", "primary-fixed-dim": "#adc6ff", "on-primary-container": "#00285d" }, "borderRadius": { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" }, "spacing": { "space-md": "1rem", "gutter-sm": "1rem", "margin-mobile": "1rem", "margin": "2rem", "gutter": "1.5rem", "space-xl": "2.5rem", "space-xs": "0.25rem", "space-lg": "1.5rem", "space-sm": "0.5rem" }, "fontFamily": { "label-sm": [ "JetBrains Mono" ], "headline-md": [ "Space Grotesk" ], "label-lg": [ "JetBrains Mono" ], "label-md": [ "JetBrains Mono" ], "headline-sm": [ "Space Grotesk" ], "headline-xl": [ "Space Grotesk" ], "headline-xl-mobile": [ "Space Grotesk" ], "headline-lg": [ "Space Grotesk" ], "body-md": [ "Inter" ], "headline-lg-mobile": [ "Space Grotesk" ], "body-sm": [ "Inter" ], "body-lg": [ "Inter" ] }, "fontSize": { "label-sm": [ "10px", { "lineHeight": "14px", "letterSpacing": "0.08em", "fontWeight": "500" } ], "headline-md": [ "24px", { "lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "600" } ], "label-lg": [ "14px", { "lineHeight": "20px", "letterSpacing": "0.04em", "fontWeight": "600" } ], "label-md": [ "12px", { "lineHeight": "16px", "letterSpacing": "0.06em", "fontWeight": "500" } ], "headline-sm": [ "20px", { "lineHeight": "28px", "letterSpacing": "0", "fontWeight": "600" } ], "headline-xl": [ "48px", { "lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700" } ], "headline-xl-mobile": [ "32px", { "lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "700" } ], "headline-lg": [ "36px", { "lineHeight": "44px", "letterSpacing": "-0.02em", "fontWeight": "700" } ], "body-md": [ "14px", { "lineHeight": "20px", "letterSpacing": "0", "fontWeight": "400" } ], "headline-lg-mobile": [ "28px", { "lineHeight": "36px", "letterSpacing": "-0.01em", "fontWeight": "700" } ], "body-sm": [ "12px", { "lineHeight": "16px", "letterSpacing": "0", "fontWeight": "400" } ], "body-lg": [ "16px", { "lineHeight": "24px", "letterSpacing": "0", "fontWeight": "400" } ] } } } };</script></head><body class="bg-background font-body-md text-on-background selection:bg-tertiary-container selection:text-on-tertiary"><aside class="fixed left-0 top-0 h-full w-64 bg-surface-container-lowest/90 backdrop-blur-xl z-50 flex flex-col justify-between pt-20 pb-6"><div class="flex flex-col gap-space-lg"><div class="px-6"><p class="font-label-sm text-label-sm uppercase tracking-wider text-outline">Tactical Grid Ops</p></div><nav class="flex flex-col gap-space-xs px-3" data-active-classes="bg-surface-container-high text-tertiary shadow-[0_0_12px_rgba(0,218,243,0.2)] font-semibold"><a class="flex items-center gap-3 px-3 py-2.5 rounded-lg text-on-surface-variant font-label-md text-label-md transition-all duration-200 hover:bg-surface-container-high hover:text-on-surface" data-path="dashboard" href="#"><span class="material-symbols-outlined text-[20px]">grid_view</span><span>Dashboard</span></a><a aria-current="page" class="flex items-center gap-3 px-3 py-2.5 rounded-lg transition-all duration-200 bg-surface-container-high text-tertiary shadow-[0_0_12px_rgba(0,218,243,0.2)] font-semibold" data-path="quiz" href="#"><span class="material-symbols-outlined text-[20px]">swords</span><span>Arena / Quiz</span></a><a class="flex items-center gap-3 px-3 py-2.5 rounded-lg text-on-surface-variant font-label-md text-label-md transition-all duration-200 hover:bg-surface-container-high hover:text-on-surface" data-path="boss-challenges" href="#"><span class="material-symbols-outlined text-[20px]">terminal</span><span>Boss Challenges</span></a><a class="flex items-center gap-3 px-3 py-2.5 rounded-lg text-on-surface-variant font-label-md text-label-md transition-all duration-200 hover:bg-surface-container-high hover:text-on-surface" data-path="leaderboard" href="#"><span class="material-symbols-outlined text-[20px]">leaderboard</span><span>Leaderboard</span></a><a class="flex items-center gap-3 px-3 py-2.5 rounded-lg text-on-surface-variant font-label-md text-label-md transition-all duration-200 hover:bg-surface-container-high hover:text-on-surface" data-path="armory-badges" href="#"><span class="material-symbols-outlined text-[20px]">military_tech</span><span>Armory / Badges</span></a><a class="flex items-center gap-3 px-3 py-2.5 rounded-lg text-on-surface-variant font-label-md text-label-md transition-all duration-200 hover:bg-surface-container-high hover:text-on-surface" data-path="settings" href="#"><span class="material-symbols-outlined text-[20px]">settings</span><span>Settings</span></a></nav></div><div class="px-4 flex flex-col gap-space-sm"><div class="p-3 rounded-lg bg-surface-container-low/70 flex items-center justify-between"><div class="flex items-center gap-2"><span class="inline-block w-2 h-2 rounded-full bg-tertiary animate-pulse"></span><span class="font-label-sm text-label-sm text-on-surface">SOC UPLINK</span></div><span class="font-label-sm text-label-sm text-outline">18ms</span></div></div></aside><div class="pl-64"><header class="fixed top-0 left-0 right-0 h-16 bg-surface-container-lowest/80 backdrop-blur-xl z-40 px-6 flex items-center justify-between shadow-[0_1px_8px_rgba(0,0,0,0.3)]"><div class="flex items-center gap-space-md"><img alt="Cyber League Crest Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1WwUKAxamhYVx4kQ1DZsoQLH0-taVgt0C3AGuz8Y1ZszsjzM_ls8XgKf0MCYN_FwGRvo5kjwejGr02JZOnPY8mbfiUHdaTJEZGJlO6sG-wyfZNuCruvpqAv2E7dtFv1rlAnlDuKZgt1WLlRk39pnLmDygHWW9888tDFX1tLBpqxgAbi0GtaJS4LCHkMJDAYsm91bclv-qdHqdsfaj7oZBC8oywrfvg_Z66I9PQKTVExKpYkEhH8baUZ-dE"/><span class="font-headline-sm text-headline-sm uppercase tracking-wide bg-gradient-to-r from-tertiary via-primary to-secondary bg-clip-text text-transparent drop-shadow-[0_0_12px_rgba(0,218,243,0.4)]">CYBER LEAGUE</span><div class="hidden xl:flex items-center px-2.5 py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm uppercase tracking-widest shadow-[0_0_8px_rgba(111,0,190,0.4)]">SEASON 4: ZERO DAY</div></div><div class="flex items-center gap-space-md"><div class="flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container-high shadow-[0_0_10px_rgba(0,218,243,0.2)]"><span class="font-label-md text-label-md text-tertiary">⚡ 4,850 XP</span></div><div class="hidden sm:flex items-center gap-1 px-2.5 py-1 rounded bg-surface-container-high"><span class="w-2 h-2 rounded-full bg-outline-variant"></span><span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant">Bronze III</span></div><button class="relative p-2 rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors"><span class="material-symbols-outlined text-[20px]">notifications</span><span class="absolute top-1.5 right-1.5 w-2 h-2 rounded-full bg-tertiary shadow-[0_0_8px_rgba(0,218,243,0.9)]"></span></button><div class="p-0.5 rounded-full bg-gradient-to-tr from-tertiary to-secondary shadow-[0_0_10px_rgba(0,218,243,0.4)]"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBGpMo5FWiqaj6yam9a9CHOAamNqJ6Pyl-1RnNXT3PqC0MmYuqjbq_d5rM5OQ3LzCSNQX66PawQ7kfSTmWMvsQz5axbiQGHjW91XwFKm500Cn3uBcCzaKwzQVOU3vkBiM1xeosva89N62IhMhiA5Xg06QMZRSa-bjV9CNSzUS2ML2NnVmG1HC4QKC5RShqwYX1SIo88Dc4MyoSeH_lRV4gzsaf9AMdBTlktuMK_4ZDnQKwb4Kbo16jX"/></div></div></header><main class="w-full pt-16 bg-background min-h-screen"><div class="flex flex-col w-full">
+<div class="relative w-full min-h-[calc(100vh-4rem)] p-6 lg:p-10 flex flex-col justify-between overflow-hidden">
+<!-- Cyber Tactical Grid Ambient Glows -->
+<div class="absolute -top-40 -left-40 w-96 h-96 bg-primary-container/10 rounded-full blur-3xl pointer-events-none"></div>
+<div class="absolute -bottom-40 right-10 w-[30rem] h-[30rem] bg-secondary-container/15 rounded-full blur-[100px] pointer-events-none"></div>
+<div class="absolute inset-0 bg-[radial-gradient(#2e3545_1px,transparent_1px)] [background-size:24px_24px] opacity-20 pointer-events-none"></div>
+<!-- STAGE HEADER / HUD METRICS -->
+<header class="relative z-10 w-full max-w-5xl mx-auto flex flex-col gap-4">
+<div class="flex flex-wrap items-center justify-between gap-4 bg-surface-container-low/90 backdrop-blur-md px-6 py-4 rounded-xl shadow-lg shadow-black/40">
+<!-- Left: Sector / Stage Index & Category -->
+<div class="flex items-center gap-4 flex-wrap">
+<div class="flex items-center gap-2 px-3 py-1 rounded bg-surface-container-high">
+<span class="inline-block w-2 h-2 rounded-full bg-tertiary animate-pulse"></span>
+<span class="font-label-md text-label-md uppercase tracking-wider text-on-surface">QUESTION 04 / 10</span>
+</div>
+<span class="font-label-sm text-label-sm text-outline hidden sm:inline-block">•</span>
+<div class="flex items-center gap-2 px-3 py-1 rounded-full bg-tertiary-container/20 text-tertiary shadow-[0_0_12px_rgba(0,218,243,0.25)]">
+<span class="material-symbols-outlined text-[16px]">security</span>
+<span class="font-label-sm text-label-sm tracking-widest uppercase">SOCIAL ENGINEERING &amp; PHISHING</span>
+</div>
+</div>
+<!-- Right: Animated Countdown Radial HUD -->
+<div class="flex items-center gap-4">
+<div class="hidden sm:flex flex-col items-end">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-outline">TIME ALLOCATED</span>
+<span class="font-label-md text-label-md text-error tracking-tight font-semibold flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px] text-error">crisis_alert</span> STAGE CRITICAL
+            </span>
+</div>
+<div class="relative flex items-center justify-center w-14 h-14">
+<svg class="w-full h-full transform -rotate-90" viewbox="0 0 56 56">
+<circle class="text-surface-container-highest" cx="28" cy="28" fill="none" r="23" stroke="currentColor" stroke-width="3"></circle>
+<circle class="text-tertiary transition-all duration-1000 ease-linear" cx="28" cy="28" fill="none" id="timer-stroke" r="23" stroke="currentColor" stroke-dasharray="144.5" stroke-dashoffset="36" stroke-linecap="round" stroke-width="3.5"></circle>
+</svg>
+<div class="absolute flex flex-col items-center justify-center">
+<span class="font-label-md text-label-md text-on-surface font-semibold tracking-tighter" id="countdown-text">00:45</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Linear Micro Progress Bar with Neon Indicator -->
+<div class="w-full h-1.5 bg-surface-container-high rounded-full overflow-hidden p-[1px]">
+<div class="h-full bg-gradient-to-r from-tertiary via-primary to-secondary rounded-full w-[40%] shadow-[0_0_12px_rgba(0,218,243,0.8)] transition-all duration-500"></div>
+</div>
+</header>
+<!-- CENTER STAGE ARENA -->
+<main class="relative z-10 w-full max-w-5xl mx-auto my-auto py-6 flex flex-col gap-6">
+<!-- Question Container Card -->
+<div class="relative bg-surface-container/85 backdrop-blur-xl rounded-xl p-6 sm:p-8 shadow-2xl shadow-black/60 overflow-hidden">
+<!-- Threat Drill Badge / Telemetry Metadata -->
+<div class="flex flex-wrap items-center justify-between gap-3 mb-4">
+<div class="flex items-center gap-2 px-2.5 py-1 rounded bg-error-container/40 text-error shadow-[0_0_12px_rgba(147,0,10,0.5)]">
+<span class="material-symbols-outlined text-[16px] animate-pulse">warning</span>
+<span class="font-label-sm text-label-sm uppercase tracking-widest font-semibold">CRITICAL INCIDENT DRILL</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="font-label-sm text-label-sm text-outline">LATENCY: <strong class="text-on-surface font-mono">14ms</strong></span>
+<span class="font-label-sm text-label-sm text-outline">DIFFICULTY: <strong class="text-secondary font-mono">TIER-2</strong></span>
+</div>
+</div>
+<!-- Question Prompt -->
+<h1 class="font-headline-md text-headline-md sm:font-headline-lg sm:text-headline-lg text-on-surface tracking-tight text-balance leading-snug">
+          You receive an email from IT-Support asking you to reset your password urgently. What should you do?
+        </h1>
+<!-- Interactive Micro Scenario Strip -->
+<div class="mt-4 pt-4 flex items-center gap-3 bg-surface-container-low/70 px-4 py-2.5 rounded-lg text-on-surface-variant font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-[18px] text-tertiary">mail</span>
+<span class="truncate font-label-sm text-label-sm text-outline">FROM: <code class="text-on-surface">helpdesk-urgent@internal-auth0-service.com</code></span>
+<span class="ml-auto hidden md:inline-block font-label-sm text-label-sm text-error">FLAGGED: SPF Mismatch</span>
+</div>
+</div>
+<!-- Multiple Choice Vertical Stack -->
+<div class="grid grid-cols-1 gap-3.5" id="options-group">
+<!-- Option A -->
+<label class="group relative flex items-center justify-between p-4 sm:p-5 rounded-xl bg-surface-container-low/80 hover:bg-surface-container-high transition-all duration-200 cursor-pointer shadow-md shadow-black/20">
+<input class="sr-only peer" name="quiz_answer" type="radio" value="A"/>
+<div class="flex items-center gap-4 min-w-0 pr-4">
+<div class="flex-shrink-0 w-8 h-8 rounded-lg bg-surface-container-highest flex items-center justify-center font-label-md text-label-md text-outline group-hover:text-on-surface transition-colors">
+              A
+            </div>
+<p class="font-body-md text-body-md text-on-surface tracking-normal select-none">
+              Click the password reset link immediately to avoid losing access to company tools.
+            </p>
+</div>
+<div class="flex-shrink-0 flex items-center gap-3">
+<span class="hidden sm:inline-block font-label-sm text-label-sm uppercase px-2 py-0.5 rounded bg-surface-container-highest text-outline group-hover:text-on-surface">Key [1]</span>
+<div class="w-5 h-5 rounded-full bg-surface-container-highest flex items-center justify-center"></div>
+</div>
+</label>
+<!-- Option B (Selected State Default) -->
+<label class="group relative flex items-center justify-between p-4 sm:p-5 rounded-xl bg-surface-container-high transition-all duration-200 cursor-pointer shadow-[0_0_24px_rgba(0,218,243,0.35)] ring-1 ring-tertiary">
+<input checked="" class="sr-only peer" name="quiz_answer" type="radio" value="B"/>
+<div class="flex items-center gap-4 min-w-0 pr-4">
+<div class="flex-shrink-0 w-8 h-8 rounded-lg bg-tertiary text-on-tertiary flex items-center justify-center font-label-md text-label-md font-semibold shadow-[0_0_10px_rgba(0,218,243,0.6)]">
+              B
+            </div>
+<p class="font-body-md text-body-md text-on-surface font-medium tracking-normal select-none">
+              Verify the sender address carefully and report the message to official security channels without clicking links.
+            </p>
+</div>
+<div class="flex-shrink-0 flex items-center gap-3">
+<span class="hidden sm:inline-block font-label-sm text-label-sm uppercase px-2 py-0.5 rounded bg-tertiary-container/40 text-tertiary font-semibold shadow-[0_0_8px_rgba(0,218,243,0.4)]">Key [2]</span>
+<div class="w-6 h-6 rounded-full bg-tertiary text-on-tertiary flex items-center justify-center shadow-[0_0_8px_rgba(0,218,243,0.8)]">
+<span class="material-symbols-outlined text-[16px] font-bold">check</span>
+</div>
+</div>
+</label>
+<!-- Option C -->
+<label class="group relative flex items-center justify-between p-4 sm:p-5 rounded-xl bg-surface-container-low/80 hover:bg-surface-container-high transition-all duration-200 cursor-pointer shadow-md shadow-black/20">
+<input class="sr-only peer" name="quiz_answer" type="radio" value="C"/>
+<div class="flex items-center gap-4 min-w-0 pr-4">
+<div class="flex-shrink-0 w-8 h-8 rounded-lg bg-surface-container-highest flex items-center justify-center font-label-md text-label-md text-outline group-hover:text-on-surface transition-colors">
+              C
+            </div>
+<p class="font-body-md text-body-md text-on-surface tracking-normal select-none">
+              Forward the email to all colleagues in your department to ask if they received it.
+            </p>
+</div>
+<div class="flex-shrink-0 flex items-center gap-3">
+<span class="hidden sm:inline-block font-label-sm text-label-sm uppercase px-2 py-0.5 rounded bg-surface-container-highest text-outline group-hover:text-on-surface">Key [3]</span>
+<div class="w-5 h-5 rounded-full bg-surface-container-highest flex items-center justify-center"></div>
+</div>
+</label>
+<!-- Option D -->
+<label class="group relative flex items-center justify-between p-4 sm:p-5 rounded-xl bg-surface-container-low/80 hover:bg-surface-container-high transition-all duration-200 cursor-pointer shadow-md shadow-black/20">
+<input class="sr-only peer" name="quiz_answer" type="radio" value="D"/>
+<div class="flex items-center gap-4 min-w-0 pr-4">
+<div class="flex-shrink-0 w-8 h-8 rounded-lg bg-surface-container-highest flex items-center justify-center font-label-md text-label-md text-outline group-hover:text-on-surface transition-colors">
+              D
+            </div>
+<p class="font-body-md text-body-md text-on-surface tracking-normal select-none">
+              Reply directly to the email with your current password to confirm your identity.
+            </p>
+</div>
+<div class="flex-shrink-0 flex items-center gap-3">
+<span class="hidden sm:inline-block font-label-sm text-label-sm uppercase px-2 py-0.5 rounded bg-surface-container-highest text-outline group-hover:text-on-surface">Key [4]</span>
+<div class="w-5 h-5 rounded-full bg-surface-container-highest flex items-center justify-center"></div>
+</div>
+</label>
+</div>
+</main>
+<!-- BOTTOM HUD BAR -->
+<footer class="relative z-10 w-full max-w-5xl mx-auto pt-4 flex flex-col sm:flex-row items-center justify-between gap-4">
+<!-- Streak & Combo Bonus Telemetry -->
+<div class="flex items-center gap-3 bg-surface-container-low/90 backdrop-blur-md px-4 py-2.5 rounded-xl shadow-lg shadow-black/30">
+<div class="flex items-center justify-center w-8 h-8 rounded-lg bg-secondary-container text-on-secondary-container shadow-[0_0_12px_rgba(111,0,190,0.5)]">
+<span class="material-symbols-outlined text-[20px]">local_fire_department</span>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-2">
+<span class="font-label-md text-label-md text-secondary font-semibold">3X STREAK ACTIVE</span>
+<span class="w-1.5 h-1.5 rounded-full bg-secondary animate-ping"></span>
+</div>
+<span class="font-label-sm text-label-sm text-outline">+15 XP speed multiplier active</span>
+</div>
+</div>
+<!-- Action Cluster: Submit and Short-circuit Hint -->
+<div class="flex items-center gap-4 w-full sm:w-auto justify-end">
+<div class="hidden lg:flex items-center gap-1.5 text-outline font-label-sm text-label-sm">
+<span>PRESS</span>
+<kbd class="px-2 py-1 rounded bg-surface-container-high text-on-surface font-label-sm text-label-sm uppercase shadow">ENTER ↵</kbd>
+</div>
+<button class="w-full sm:w-auto relative group flex items-center justify-center gap-3 px-8 py-3.5 rounded-lg bg-gradient-to-r from-secondary-container via-primary-container to-tertiary-container text-on-primary font-headline-sm text-headline-sm uppercase tracking-wider font-semibold shadow-[0_0_20px_rgba(111,0,190,0.6)] hover:shadow-[0_0_30px_rgba(0,218,243,0.8)] active:scale-[0.98] transition-all duration-200" id="submit-btn">
+<span class="relative z-10 text-white drop-shadow">SUBMIT ANSWER</span>
+<span class="material-symbols-outlined text-[22px] text-white transition-transform group-hover:translate-x-1 relative z-10">arrow_forward</span>
+<div class="absolute inset-0 rounded-lg bg-white/10 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+</button>
+</div>
+</footer>
+</div>
+</div>
+<script>
+  (function initQuizInteractive() {
+    let secondsLeft = 45;
+    const maxSeconds = 60;
+    const circumference = 2 * Math.PI * 23;
+    const countdownEl = document.getElementById('countdown-text');
+    const timerStrokeEl = document.getElementById('timer-stroke');
+    const options = document.querySelectorAll('#options-group label');
+
+    // Countdown Interval Simulation
+    const timer = setInterval(() => {
+      if (secondsLeft <= 0) {
+        clearInterval(timer);
+        return;
+      }
+      secondsLeft--;
+      const formatted = '00:' + (secondsLeft < 10 ? '0' : '') + secondsLeft;
+      if (countdownEl) countdownEl.textContent = formatted;
+
+      if (timerStrokeEl) {
+        const offset = circumference - (secondsLeft / maxSeconds) * circumference;
+        timerStrokeEl.style.strokeDashoffset = offset;
+        if (secondsLeft <= 10) {
+          timerStrokeEl.classList.remove('text-tertiary');
+          timerStrokeEl.classList.add('text-error');
+        }
+      }
+    }, 1000);
+
+    // Option Card Selection Behavior
+    options.forEach((card, idx) => {
+      card.addEventListener('click', () => {
+        options.forEach(c => {
+          c.classList.remove('ring-1', 'ring-tertiary', 'shadow-[0_0_24px_rgba(0,218,243,0.35)]', 'bg-surface-container-high');
+          c.classList.add('bg-surface-container-low/80');
+
+          const badge = c.querySelector('.flex-shrink-0.w-8.h-8');
+          if (badge) {
+            badge.className = 'flex-shrink-0 w-8 h-8 rounded-lg bg-surface-container-highest flex items-center justify-center font-label-md text-label-md text-outline group-hover:text-on-surface transition-colors';
+          }
+          const checkSlot = c.querySelector('.flex-shrink-0.flex.items-center.gap-3 > div:last-child');
+          if (checkSlot) {
+            checkSlot.className = 'w-5 h-5 rounded-full bg-surface-container-highest flex items-center justify-center';
+            checkSlot.innerHTML = '';
+          }
+          const textEl = c.querySelector('p');
+          if (textEl) textEl.classList.remove('font-medium');
+        });
+
+        // Activate Selected
+        card.classList.remove('bg-surface-container-low/80');
+        card.classList.add('bg-surface-container-high', 'ring-1', 'ring-tertiary', 'shadow-[0_0_24px_rgba(0,218,243,0.35)]');
+
+        const activeBadge = card.querySelector('.flex-shrink-0.w-8.h-8');
+        if (activeBadge) {
+          activeBadge.className = 'flex-shrink-0 w-8 h-8 rounded-lg bg-tertiary text-on-tertiary flex items-center justify-center font-label-md text-label-md font-semibold shadow-[0_0_10px_rgba(0,218,243,0.6)]';
+        }
+
+        const activeSlot = card.querySelector('.flex-shrink-0.flex.items-center.gap-3 > div:last-child');
+        if (activeSlot) {
+          activeSlot.className = 'w-6 h-6 rounded-full bg-tertiary text-on-tertiary flex items-center justify-center shadow-[0_0_8px_rgba(0,218,243,0.8)]';
+          activeSlot.innerHTML = '<span class="material-symbols-outlined text-[16px] font-bold">check</span>';
+        }
+
+        const p = card.querySelector('p');
+        if (p) p.classList.add('font-medium');
+
+        const radio = card.querySelector('input[type="radio"]');
+        if (radio) radio.checked = true;
+      });
+    });
+
+    // Keyboard bindings (1-4 and Enter)
+    window.addEventListener('keydown', (e) => {
+      const key = e.key;
+      if (['1', '2', '3', '4'].includes(key)) {
+        const index = parseInt(key, 10) - 1;
+        if (options[index]) options[index].click();
+      } else if (key === 'Enter') {
+        const submit = document.getElementById('submit-btn');
+        if (submit) {
+          submit.classList.add('scale-95');
+          setTimeout(() => submit.classList.remove('scale-95'), 150);
+        }
+      }
+    });
+  })();
+</script></main></div></body></html>
